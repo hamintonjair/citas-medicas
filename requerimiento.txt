@@ -1,0 +1,20 @@
+
+
+vista principal
+http://localhost/citas-medicas/public/home
+
+vista administrador
+http://localhost/citas-medicas/public/dashboard
+
+
+
+buscar el archivo "php_mongodb.dll" que se encuentra en la raiz de tu proyecto y ir a la carpeta C:\xampp\php\ext
+
+luego en xamppp en la configuracion d eapache nos direigimos a .ini buscacomos la extension
+y la habilitamos y si no esta agregar extension=php_mongodb.dll
+
+las base de dtos es Atlas https://cloud.mongodb.com/
+en proyecto 0 - usuario hamintonjair, contraseña menaH01+
+deb citas_medicas
+
+usar este comando para migrar las tablas  php artisan migrate
